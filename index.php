@@ -36,7 +36,7 @@
 				<td>
 					<select name="kota">
 					<?php foreach($cbiodata->get_kota() as $xkota){ ?>
-					<option><?php echo $xkota['nama_kota'] ?></option>
+					<option value="<?php echo $xkota['id_kota'] ?>"><?php echo $xkota['nama_kota'] ?></option>
 					<?php } ?>
 					</select>
 				</td>
